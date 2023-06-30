@@ -13,7 +13,23 @@ import controlador.ed.lista.ListaEnlazada;
 public class Papeleta {
     
     private ListaEnlazada <String> candidatos;
-    
+    private Integer id;
+
+    public ListaEnlazada<String> getCandidatos() {
+        return candidatos;
+    }
+
+    public void setCandidatos(ListaEnlazada<String> candidatos) {
+        this.candidatos = candidatos;
+    }
+
+    public Integer getId() {
+        return id;
+    }
+
+    public void setId(Integer id) {
+        this.id = id;
+    }
     
     
 }
