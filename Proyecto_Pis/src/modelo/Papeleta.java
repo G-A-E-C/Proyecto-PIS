@@ -4,10 +4,16 @@
  */
 package modelo;
 
+import controlador.ed.lista.ListaEnlazada;
+
 /**
  *
  * @author Andy
  */
 public class Papeleta {
+    
+    private ListaEnlazada <String> candidatos;
+    
+    
     
 }

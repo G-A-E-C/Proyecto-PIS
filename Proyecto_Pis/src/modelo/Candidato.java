@@ -11,4 +11,20 @@ package modelo;
 public class Candidato extends Votante{
     private Integer id_PartidoP;
     private Integer id_Dignidad;
+
+    public Integer getId_PartidoP() {
+        return id_PartidoP;
+    }
+
+    public void setId_PartidoP(Integer id_PartidoP) {
+        this.id_PartidoP = id_PartidoP;
+    }
+
+    public Integer getId_Dignidad() {
+        return id_Dignidad;
+    }
+
+    public void setId_Dignidad(Integer id_Dignidad) {
+        this.id_Dignidad = id_Dignidad;
+    }
 }
