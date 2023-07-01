@@ -18,6 +18,7 @@ public class PartidoPDAO extends AdaptadorDao<PartidoPolitico>{
     }
 
     public PartidoPolitico getPartido() {
+        if(partido == null) partido = new PartidoPolitico();
         return partido;
     }
 

@@ -20,6 +20,7 @@ public class VotoDao extends AdaptadorDao<Voto>{
     }
 
     public Voto getVoto() {
+        if(voto == null) voto = new Voto();
         return voto;
     }
 

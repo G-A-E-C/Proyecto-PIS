@@ -9,7 +9,5 @@ package modelo;
  * @author Walter
  */
 public enum Dignidad {
-    
-    
-    
+    PRESIDENTE, VECIPRECIDENTE
 }

@@ -27,4 +27,6 @@ public class Candidato extends Votante{
     public void setId_Dignidad(Integer id_Dignidad) {
         this.id_Dignidad = id_Dignidad;
     }
+    
+    
 }

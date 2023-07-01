@@ -19,6 +19,7 @@ public class VotanteDao extends AdaptadorDao<Votante>{
     }
 
     public Votante getVotante() {
+        if(votante == null) votante = new Votante();
         return votante;
     }
 
