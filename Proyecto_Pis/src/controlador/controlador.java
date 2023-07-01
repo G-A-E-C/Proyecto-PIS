@@ -6,8 +6,8 @@ package controlador;
 
 /**
  *
- * @author Andy
+ * @author Walter
  */
-public class c {
+public class Controlador {
     
 }
