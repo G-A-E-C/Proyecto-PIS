@@ -13,6 +13,7 @@ import controlador.ed.lista.ListaEnlazada;
 public class PadronElectoral {
     
     private String ubicacion;
+    private Integer id; 
     private ListaEnlazada <String> votantes;
     private ListaEnlazada <Integer> papeleta; 
 
@@ -24,6 +25,14 @@ public class PadronElectoral {
         this.ubicacion = ubicacion;
     }
 
+    public Integer getId() {
+        return id;
+    }
+
+    public void setId(Integer id) {
+        this.id = id;
+    }
+    
     public ListaEnlazada<String> getVotantes() {
         return votantes;
     }
