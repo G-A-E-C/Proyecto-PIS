@@ -13,6 +13,9 @@ public class FrmLogin extends javax.swing.JDialog {
     /**
      * Creates new form FrmLogin
      */
+    
+    //Esta vista login nos servira para poder ingresar al sistema 
+    //en el cual vamos a poder acceder a ejercer un voto
     public FrmLogin(java.awt.Frame parent, boolean modal) {
         super(parent, modal);
         initComponents();

@@ -17,7 +17,7 @@ public class CuentaDAO extends AdaptadorDao<Cuenta> {
     public CuentaDAO() {
         super(Cuenta.class);
     }
-    
+   //Permite generar un ID para una cuenta y guardarla. 
     public void guardarCuenta() throws IOException {
         cuenta.setId(generarID());
         guardar(cuenta);

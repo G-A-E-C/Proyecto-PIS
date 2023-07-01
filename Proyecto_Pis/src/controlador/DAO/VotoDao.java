@@ -27,7 +27,7 @@ public class VotoDao extends AdaptadorDao<Voto>{
     public void setVoto(Voto voto) {
         this.voto = voto;
     }
-    
+     //Permite generar un ID para un voto y guardarlo. 
     public void guardarVoto() throws IOException{
         voto.setId(generarID());
         guardar(voto);

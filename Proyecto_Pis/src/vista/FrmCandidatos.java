@@ -23,7 +23,7 @@ public class FrmCandidatos extends javax.swing.JDialog {
         initComponents();
         cargarTabla();
     }
-
+    //Este metodo nos sirve para cargar los datos de los candidatos.
     private void cargarTabla() {
         tblTabla.setModel(modelo);
         tblTabla.updateUI();

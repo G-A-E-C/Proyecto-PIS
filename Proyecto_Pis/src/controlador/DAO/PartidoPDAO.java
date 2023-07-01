@@ -11,6 +11,7 @@ import modelo.PartidoPolitico;
  *
  * @author gabrielalejandroespinzacoronel
  */
+
 public class PartidoPDAO extends AdaptadorDao<PartidoPolitico>{
     private PartidoPolitico partido;
     public PartidoPDAO() {
@@ -26,6 +27,7 @@ public class PartidoPDAO extends AdaptadorDao<PartidoPolitico>{
         this.partido = partido;
     }
     
+     //Permite generar un ID para un partido y guardarla. 
     public void guardarPartido() throws IOException{
         partido.setId(generarID());
         guardar(partido);
